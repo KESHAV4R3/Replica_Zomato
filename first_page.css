@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+/********************* header section 1 *********************/
+.header_section_1 {
+    display: flex;
+}
+
+.zomato_logo {
+    background-image: url(zomato_logo.png);
+    background-size: 78%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 170px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+}
+
+.header_section_content {
+    display: flex;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.167), -2px -2px 5px rgba(128, 128, 128, 0.167);
+    width: 700px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-right: 70px;
+}
+
+#location_icon {
+    margin-top: 10px;
+    background-image: url(location_logo.png);
+    background-position: center;
+    background-size: 110%;
+    width: 30px;
+    height: 30px;
+}
+
+.select_location {
+    color: grey;
+    font-size: 15px;
+    padding-right: 170px;
+    border: 1px solid white;
+    height: 49px;
+}
+
+.line,
+#search_icon {
+    color: grey;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#search_icon {
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.search_box {
+    width: 320px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.header_section_1_box {
+    color: grey;
+    font-size: 18px;
+    padding-top: 25px;
+    margin-left: 40px;
+}
+
+/********************* header section 2 *********************/
+
+.header_section_2 {
+    display: flex;
+    padding-left: 205px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: grey;
+}
+
+.header_section_2_item,
+p {
+    margin-right: 10px;
+}
+
+.header_section_2_item:hover {
+    color: rgb(230, 41, 41);
+}
+
+/********************* header section 3 *********************/
+.header_section_3 {
+    display: flex;
+    padding-left: 220px;
+}
+
+.header_section_3 p:hover {
+    color: rgb(230, 41, 41);
+}
+
+.header_section_3_item {
+    display: flex;
+    padding-top: 30px;
+}
+
+.icon {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png);
+    background-color: rgba(195, 195, 195, 0.146);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    background-size: 60%;
+    width: 70px;
+    height: 70px;
+    padding-right: 20px;
+}
+
+.icon:hover {
+    background-color: rgba(236, 181, 53, 0.388);
+}
+
+.header_section_3_item p {
+    color: grey;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 13px;
+    margin-right: 50px;
+}
+
+
+#delivery {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png);
+}
+
+#delivery:hover {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp);
+}
+
+
+#dine_out {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png?output-format=webp);
+}
+
+#dine_out:hover {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png);
+}
+
+#dine_out:hover {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png);
+}
+
+#nightlife {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp);
+}
+
+#nightlife:hover {
+    background-image: url(https://b.zmtcdn.com/data/o2_assets/855687dc64a5e06d737dae45b7f6a13b1616149818.png);
+}
+
+/********************* header section 4 *********************/
+
+.header_section_4 {
+    display: flex;
+    padding-left: 200px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+#filter_section {
+    display: flex;
+}
+
+#filter_section i {
+    padding-right: 8px;
+}
+
+.header_section_4_box {
+    height: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.167);
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 110px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_section_4_box select {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    color: grey;
+    font-size: 13px;
+}
+
+#rating_section {
+    padding-left: 9px;
+}
+
+/********************* Food item section *********************/
+
+#outlet_section {
+    background-color: white;
+}
+
+.food_item_section {
+    margin-top: 30px;
+    height: 340px;
+    background-color: rgba(97, 97, 97, 0.055);
+
+}
+
+#food_item_section_p {
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 30px;
+    margin-bottom: 19px;
+}
+
+.food_categories {
+    display: flex;
+    margin-left: 200px;
+}
+
+.food_section p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 12px;
+}
+
+.food_image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-right: 50px;
+}
+
+#roll_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png);
+}
+
+#burger_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png);
+}
+
+#biryani_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png);
+}
+
+#chicken_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png);
+}
+
+#cake_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png);
+}
+
+#paneer_image {
+    background-image: url(https://b.zmtcdn.com/data/dish_images/e44c42ff4b60b025225c8691ef9735b11635781903.png);
+}
+
+/********************* Food outlet section *********************/
+
+#food_outlet_section_p {
+    font-size: 30px;
+    margin-left: 200px;
+    padding-top: 30px;
+    margin-bottom: 19px;
+
+}
+
+.outlet_section {
+    background-size: 80%;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.167), -2px -2px 5px rgba(128, 128, 128, 0.167);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-right: 60px;
+}
+
+#time {
+    color: grey;
+}
+
+#kfc_image {
+    background-image: url(https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589431950.png?output-format=webp);
+}
+
+#lapino_pizza_image {
+    background-image: url(https://b.zmtcdn.com/data/brand_creatives/logos/3bd971b1a5783e208a9782c3604fa9f3_1601885754.png?output-format=webp);
+}
+
+#pizzahut_image {
+    background-image: url(https://b.zmtcdn.com/data/brand_creatives/logos/c38f7540bcc5a38e918856ac06409056_1504531339.png?output-format=webp);
+}
+
+#subway_image {
+    background-image: url(https://b.zmtcdn.com/data/brand_creatives/logos/9302c59eca94abbee01aec9acf9305f6_1676521366.png?output-format=webp);
+}
+
+#mcd_image {
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2269730519/display_1500/stock-vector-mcdonald-s-icon-red-mcd-burger-king-store-art-modern-element-map-road-sign-symbol-logo-famous-2269730519.jpg);
+    background-size: 130%;
+}
+
+#bikaner_image {
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/c7/65/31/c76531c5-e719-45b4-0977-f47165d4b124/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png);
+    background-size: 290%;
+}
+
+.outlet_section:hover {
+    border: 0px solid white;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.167), -4px -4px 5px rgba(128, 128, 128, 0.167);
+
+}
+
+#lapino_pizza .outlet_name {
+    padding-left: 10px;
+}
+
+#pizzahut .outlet_name {
+    padding-left: 40px;
+}
+
+#mcd .outlet_name {
+    padding-left: 30px;
+}
+
+#bikaner .outlet_name {
+    padding-left: 49px;
+}
+
+/********************* restaurant list section ********************/
+.restaurant_list_section {
+    height: 2600px;
+}
+
+.restaurant_list {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 370px;
+    margin-left: 200px;
+}
+
+.restaurant {
+    border-radius: 16px;
+    padding: 9px;
+    margin-right: 50px;
+    width: 350px;
+}
+
+.restaurant:hover {
+    border: 0px solid white;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.167), -2px -2px 5px rgba(128, 128, 128, 0.167);
+}
+
+.restaurant_image {
+    margin: 6px;
+    width: 320px;
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.reataurant_details {
+    display: flex;
+}
+
+.food_type {
+    width: 50%;
+}
+
+.food_name {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.food_category {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.food_rating {
+    width: 40px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: right;
+    margin-left: 115px;
+    margin-top: 5px;
+    padding-top: 2px;
+    font-size: 14px;
+}
+
+.food_price {
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+.food_delivery_time {
+    margin-left: 105px;
+}
+
+#cake_wala_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/5/19382015/83a6f93aa58a9314a06ec6c0ed1882a3_o2_featured_v2.jpg);
+}
+
+#new_pizza_king_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/9/19857789/9a4ecbb78c07bbe9d90b19901605297a_o2_featured_v2.jpg);
+}
+
+#rahul_dhaba_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/6/20053926/784bd17dcf56d88af9604755d20a2756_o2_featured_v2.jpg);
+}
+
+#bhawna_sweets_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/9/3401239/041e9e63c39fa333d0513ded19251c55_o2_featured_v2.jpg);
+}
+
+#little_n_chief_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/chains/4/18692074/e7d20a606bbc164b691a38b0116e9248_o2_featured_v2.jpg);
+}
+
+#bhagat_halwai_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/chains/0/3400290/53178a2b8677bf42ead6da7da2a51b9f_o2_featured_v2.jpg);
+}
+
+#tipsy_grill_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/4/20496534/b2b101eacc465952984eef7df8b7f14e_o2_featured_v2.jpg);
+}
+
+#shreeram_dhaba_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/5/19903245/79ebf92afe8c01963b338c345846a5c6_o2_featured_v2.jpg);
+}
+
+#omsai_bhojnalaya_image {
+    background-image: url(https://b.zmtcdn.com/data/pictures/4/18943864/1dc76a9b7eecbdc09838c675d4d5255c_o2_featured_v2.jpg);
+}
+
+/********************* restaurant list section ********************/
+
+#collection_section_p {
+    color: rgb(102, 100, 100);
+    margin-left: 200px;
+    font-size: 18px;
+    display: inline;
+}
+
+.collection_box {
+    display: flex;
+}
+
+#trend_section {
+    color: rgb(231, 137, 137);
+    margin-left: 240px;
+    font-size: 18px;
+}
+
+#trend_section:hover {
+    color: red;
+}
+
+.collection_image_section {
+    display: flex;
+    margin-left: 200px;
+    padding-top: 30px;
+    width: 310px;
+    margin-bottom: 30px;
+}
+
+.collection_image {
+    width: 260px;
+    height: 330px;
+    margin-right: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px solid white;
+    border-radius: 15px;
+    background-size: 140%;
+}
+
+.collection_image_p {
+    color: white;
+    margin-left: 17px;
+    padding-top: 270px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+#collection_image_1 {
+    background-image: url(wine_glass.png);
+}
+
+
+#collection_image_2 {
+    background-image: url(taj_mahal.png);
+
+}
+
+#collection_image_3 {
+    background-image: url(pakora.png);
+}
+
+#collection_image_4 {
+    background-image: url(restaurant.png);
+}
+
+.agra_locartions {
+    margin-bottom: 10px;
+}
+
+.agra_location_section {
+    display: flex;
+    margin-left: 180px;
+    padding: 10px;
+}
+
+.location {
+    display: flex;
+    width: 360px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.167), -2px -2px 5px rgba(128, 128, 128, 0.167);
+}
+
+.address {
+    width: 50%;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.place_address {
+    font-size: 18px;
+}
+
+.total_place {
+    margin-top: 10px;
+    color: grey;
+}
+
+.more_address {
+    margin-left: 140px;
+    margin-top: 29px;
+}
+
+.explore_option {
+    margin-bottom: 63px;
+}
+
+.popular_cuisine_near_me {
+    display: flex;
+    margin-left: 200px;
+    width: 1050px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.167);
+    border-radius: 6px;
+    color: rgb(79, 78, 78);
+    margin-bottom: 20px;
+}
+
+.popular_cuisine_near_me_p {
+    width: 90%;
+}
+
+.side_arrow {
+    margin-left: 65px;
+}
+
+.footer_last_section {
+    background-color: rgba(220, 214, 214, 0.194);
+}
+
+.footer_last_section_1 {
+    display: flex;
+}
+
+#footer_last_section_1_1 {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 605px;
+    background-image: url(zomato_icon_2.png);
+}
+
+.footer_last_section_1_2 {
+    display: flex;
+}
+
+.footer_last_section_1_2_1 {
+    margin-top: 50px;
+    width: 130px;
+    margin-right: 20px;
+    height: 44px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.indian_flag {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/864/174/449/indian-flag-4k-tricolour-flag-national-flag-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#globe_icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer_last_section_2 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.footer_last_section_2_1 {
+    margin-right: 80px;
+    height: 250px;
+}
+
+.footer_last_section_2_1_1 {
+    margin-bottom: 20px;
+}
+
+.footer_last_section_2_1_2 {
+    color: grey;
+    margin-top: 7px;
+}
+
+#app_for_you {
+    margin-bottom: 23px;
+}
+
+.footer_social_media_section {
+    display: flex;
+}
+
+.social_media_logo {
+    background-position: center;
+    background-size: 140%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+#linkedin {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM5RCfLgHosoJRiuoPrL_Bjrkffx3Z7wYdvQ&usqp=CAU);
+    background-size: 140%;
+    border-radius: 80px;
+}
+
+#instagram {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQOYOSCVo0Kvnbj7M2onJQ7LEXYi8rlFVcA&usqp=CAU);
+    background-size: 140%;
+    border-radius: 10px;
+}
+
+#x {
+    background-image: url(https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1788614524.1704585600&semt=ais);
+    background-size: 100%;
+    border-radius: 50px;
+}
+
+#youtube {
+    background-image: url(https://cdn-icons-png.flaticon.com/256/152/152810.png);
+    background-size: 160%;
+    border-radius: 50px;
+}
+
+#facebook {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png);
+    background-size: 160%;
+    border-radius: 50px;
+}
+
+.footer_last_line {
+    margin-left: 200px;
+    margin-top: 30px;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.footer_last_line p {
+    margin-bottom: 8px;
+}
+
+.download_section_option {
+    margin-top: 30px;
+}
+
+.download {
+    width: 150px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+#app_store {
+    background-image: url(https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png);
+}
+
+#play_store {
+    background-image: url(https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png);
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOMATO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="first_page.css">
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/176/785/png-transparent-zomato-thumbnail-review-platforms-logos-thumbnail.png">
+</head>
+
+<body>
+    <header>
+        <!---------------------------------------------------->
+        <div class="header_section_1">
+            <div class="zomato_logo"></div>
+            <div class="header_section_content">
+                <div id="location_icon"></div>
+                <select class="select_location">
+                    <option selected disabled>Select Option</option>
+                    <option value="">AGRA</option>
+                    <option value="">DELHI</option>
+                    <option value="">MUMBAI</option>
+                    <option value="">PUNE</option>
+                    <option value="">PATNA</option>
+                </select>
+                <pre class="line">|</pre>
+                <i class='bx bx-search-alt-2' id="search_icon"></i>
+                <input type="text" placeholder="search for restaurant, cuisine or a dish" class="search_box">
+            </div>
+
+            <div class="header_section_1_box">
+                <a href="">Log in</a>
+            </div>
+            <div class="header_section_1_box">
+                <a href="">Sign up</a>
+            </div>
+        </div>
+        </div>
+        <!---------------------------------------------------->
+        <div class="header_section_2">
+            <a href="#" class="header_section_2_item">Home</a>
+            <p>/</p>
+            <a href="#" class="header_section_2_item">India</a>
+            <p>/</p>
+            <p>Agra Restaurants</p>
+        </div>
+        <!---------------------------------------------------->
+        <div class="header_section_3">
+            <div class="header_section_3_item">
+                <div class="icon" id="delivery"></div>
+                <p>Delivery</p>
+            </div>
+
+            <div class="header_section_3_item">
+                <div class="icon" id="dine_out"></div>
+                <p>Dining Out</p>
+            </div>
+            <div class="header_section_3_item">
+                <div class="icon" id="nightlife"></div>
+                <p>Nightlife</p>
+            </div>
+        </div>
+        <hr id="line">
+        <!---------------------------------------------------->
+        <div class="header_section_4">
+            <div class="header_section_4_box" id="filter_section">
+                <i class='bx bx-filter'></i>
+                <p>Filters</p>
+            </div>
+            <div class="header_section_4_box" id="rating_section">
+                <p>Rating 4.0+</p>
+            </div>
+            <div class="header_section_4_box">
+                <p>pure Veg</p>
+            </div>
+            <div class="header_section_4_box" id="cuisine_section">
+                <select>
+                    <option selected disabled>Cuisine</option>
+                    <option value="">VEG</option>
+                    <option value="">NON-VEG</option>
+                    <option value="">EGG</option>
+                    <option value="">PANEER</option>
+                    <option value="">ROLL</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!---------------------------------------------------->
+        <div class="food_item_section">
+            <p id="food_item_section_p">Inspiration for your first order</p>
+            <div class="food_categories">
+                <div class="food_section" id="roll">
+                    <div class="food_image" id="roll_image"></div>
+                    <p>Roll</p>
+                </div>
+                <div class="food_section" id="burger">
+                    <div class="food_image" id="burger_image"></div>
+                    <p>Burger</p>
+                </div>
+                <div class="food_section" id="biryani">
+                    <div class="food_image" id="biryani_image"></div>
+                    <p>Biryani</p>
+                </div>
+                <div class="food_section" id="chicken">
+                    <div class="food_image" id="chicken_image"></div>
+                    <p>Chicken</p>
+                </div>
+                <div class="food_section" id="cake">
+                    <div class="food_image" id="cake_image"></div>
+                    <p>Cake</p>
+                </div>
+                <div class="food_section" id="paneer">
+                    <div class="food_image" id="paneer_image"></div>
+                    <p>Paneer</p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        <div class="food_item_section" id="outlet_section">
+            <p id="food_item_section_p">Top brands for you</p>
+            <div class="food_categories">
+                <div id="kfc" class="food_section">
+                    <div id="kfc_image" class="outlet_section"></div>
+                    <p class="outlet_name">KFC</p>
+                    <p id="time">26 min</p>
+                </div>
+                <div id="lapino_pizza" class="food_section">
+                    <div id="lapino_pizza_image" class="outlet_section"></div>
+                    <p class="outlet_name">La Pino'z Pizza</p>
+                    <p id="time">23 min</p>
+                </div>
+                <div id="pizzahut" class="food_section">
+                    <div id="pizzahut_image" class="outlet_section"></div>
+                    <p class="outlet_name">Pizza Hut</p>
+                    <p id="time">23 min</p>
+                </div>
+                <div id="subway" class="food_section">
+                    <div id="subway_image" class="outlet_section"></div>
+                    <p class="outlet_name">Subway</p>
+                    <p id="time">23 min</p>
+                </div>
+                <div id="mcd" class="food_section">
+                    <div id="mcd_image" class="outlet_section"></div>
+                    <p class="outlet_name">McDonald's</p>
+                    <p id="time">23 min</p>
+                </div>
+                <div id="bikaner" class="food_section">
+                    <div id="bikaner_image" class="outlet_section"></div>
+                    <p class="outlet_name">Bikaner</p>
+                    <p id="time">34 min</p>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------->
+        <div class="restaurant_list_section">
+            <p id="food_item_section_p">Delivery Restaurants in Agra</p>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="cake_wala_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Cake Wala</div>
+                            <div class="food_category">Bakery</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.0*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">25 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="new_pizza_king_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">New Pizza King</div>
+                            <div class="food_category">Fast Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.1*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">31 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="rahul_dhaba_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Rahul Dhaba</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">43 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="bhawna_sweets_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Bhawna Sweets</div>
+                            <div class="food_category">Mithai, Dessart</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.9*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">28 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="little_n_chief_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Little N Chief</div>
+                            <div class="food_category">chinese</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">32 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="bhagat_halwai_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Bhagat Halwai</div>
+                            <div class="food_category">Street Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.1*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">28 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="tipsy_grill_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Tipsy Grill</div>
+                            <div class="food_category">Burger, Fast Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.0*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">33 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="shreeram_dhaba_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Shree Ram Dhaba</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">26 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="omsai_bhojnalaya_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Om Sai Ram Bhojnalaya</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.6*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">27 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="cake_wala_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Cake Wala</div>
+                            <div class="food_category">Bakery</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.0*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">25 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="new_pizza_king_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">New Pizza King</div>
+                            <div class="food_category">Fast Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.1*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">31 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="rahul_dhaba_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Rahul Dhaba</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">43 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="bhawna_sweets_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Bhawna Sweets</div>
+                            <div class="food_category">Mithai, Dessart</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.9*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">28 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="little_n_chief_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Little N Chief</div>
+                            <div class="food_category">chinese</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">32 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="bhagat_halwai_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Bhagat Halwai</div>
+                            <div class="food_category">Street Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.1*</div>
+                            <div class="food_price">₹300 for one</div>
+                            <div class="food_delivery_time">28 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="restaurant_list">
+                <div class="restaurant">
+                    <div class="restaurant_image" id="tipsy_grill_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Tipsy Grill</div>
+                            <div class="food_category">Burger, Fast Food</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">4.0*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">33 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="shreeram_dhaba_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Shree Ram Dhaba</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.5*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">26 min</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurant">
+                    <div class="restaurant_image" id="omsai_bhojnalaya_image"></div>
+                    <div class="reataurant_details">
+                        <div class="food_type">
+                            <div class="food_name">Om Sai Ram Bhojnalaya</div>
+                            <div class="food_category">North Indian</div>
+                        </div>
+                        <div class="food_price_section">
+                            <div class="food_rating">3.6*</div>
+                            <div class="food_price">₹200 for one</div>
+                            <div class="food_delivery_time">27 min</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------->
+        </div>
+        <!------------------------------------------->
+    </main>
+    <footer>
+        <!------------------------------------------->
+        <div class="collection_section">
+            <p id="food_item_section_p" class="collections_p">Collections</p>
+            <div class="collection_box">
+                <p id="collection_section_p">Explore curated lists of top restaurants, cafes, pubs, and bars in Agra,
+                    based
+                    on trends</p>
+                <pre id="trend_section">All collections in Agra  ></pre>
+            </div>
+            <!------------------------------------------->
+            <div class="collection_image_section">
+                <div class="collection_image">
+                    <div class="collection_image" id="collection_image_1">
+                        <div class="collection_image_p">
+                            <p>8 New Year's Special Rest...</p>
+                            <p>9 Places <i class='bx bxs-right-arrow'></i></p>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------->
+                <div class="collection_image">
+                    <div class="collection_image" id="collection_image_2">
+                        <div class="collection_image_p">
+                            <p>6 Taj View Restaurants</p>
+                            <p>5 Places <i class='bx bxs-right-arrow'></i></p>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------->
+                <div class="collection_image">
+                    <div class="collection_image" id="collection_image_3">
+                        <div class="collection_image_p">
+                            <p>14 Local Favourite Places</p>
+                            <p>14 Places <i class='bx bxs-right-arrow'></i></p>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------->
+                <div class="collection_image">
+                    <div class="collection_image" id="collection_image_4">
+                        <div class="collection_image_p">
+                            <p>18 Best Luxuary Dining Place</p>
+                            <p>81 Places <i class='bx bxs-right-arrow'></i></p>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------->
+            </div>
+            <!------------------------------------------->
+        </div>
+        <!------------------------------------------->
+        <div class="agra_locartions">
+            <p id="food_item_section_p">Popular localities in and around <b>Agra</b></p>
+
+
+            <div class="agra_location_section">
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Tajgang</div>
+                        <div class="total_place">467 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Civil Lines</div>
+                        <div class="total_place">244 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Agra Cantt</div>
+                        <div class="total_place">108 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="agra_location_section">
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Sikandra</div>
+                        <div class="total_place">226 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Montola</div>
+                        <div class="total_place">224 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Khandari</div>
+                        <div class="total_place">114 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="agra_location_section">
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Dayal Bagh</div>
+                        <div class="total_place">89 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Rakabganj</div>
+                        <div class="total_place">82 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Lohamandi</div>
+                        <div class="total_place">74 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+            </div>
+            <!------------------------------------------->
+            <div class="agra_location_section">
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Arjun Nagar</div>
+                        <div class="total_place">28 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Gopal Pura</div>
+                        <div class="total_place">42 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+                <div class="location">
+                    <div class="address">
+                        <div class="place_address">Rakabganj</div>
+                        <div class="total_place">84 Palces</div>
+                    </div>
+                    <div class="more_address">></div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------->
+        <div class="explore_option">
+            <p id="food_item_section_p">Explore options near me</p>
+            <div class="popular_cuisine_near_me">
+                <div class="popular_cuisine_near_me_p">Popular cuisines near me</div>
+                <div class="side_arrow"><a href=""><i class='bx bx-chevron-down'></i></a></div>
+                <div class="popular_cuisine_near_me_extensions"></div>
+            </div>
+            <div class="popular_cuisine_near_me">
+                <div class="popular_cuisine_near_me_p">Popular restaurant types near me</div>
+                <div class="side_arrow"><a href=""><i class='bx bx-chevron-down'></i></a></div>
+            </div>
+
+            <div class="popular_cuisine_near_me">
+                <div class="popular_cuisine_near_me_p">Top Restaurant Chains</div>
+                <div class="side_arrow"><a href=""><i class='bx bx-chevron-down'></i></a></div>
+            </div>
+
+            <div class="popular_cuisine_near_me">
+                <div class="popular_cuisine_near_me_p">Cities We Deliver To</div>
+                <div class="side_arrow"><a href=""><i class='bx bx-chevron-down'></i></a></div>
+            </div>
+        </div>
+        <!------------------------------------------->
+        <div class="footer_last_section">
+            <div class="footer_last_section_1">
+                <div class="zomato_logo" id="footer_last_section_1_1"></div>
+                <div class="footer_last_section_1_2">
+                    <div class="footer_last_section_1_2_1">
+                        <div class="indian_flag"></div>
+                        <p>India </p>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="footer_last_section_1_2_1">
+                        <i class='bx bx-globe' id="globe_icon"></i>
+                        <p>ENGLISH</p>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_last_section_2">
+                <div class="footer_last_section_2_1">
+                    <p class="footer_last_section_2_1_1">ABOUT ZOMATO</p>
+                    <p class="footer_last_section_2_1_2">Who We Are</p>
+                    <p class="footer_last_section_2_1_2">Blog</p>
+                    <p class="footer_last_section_2_1_2">Work With Us</p>
+                    <p class="footer_last_section_2_1_2">Investor Relations</p>
+                    <p class="footer_last_section_2_1_2">Report Fraud</p>
+                    <p class="footer_last_section_2_1_2">Press Kit</p>
+                    <p class="footer_last_section_2_1_2">Contact Us</p>
+                </div>
+                <div class="footer_last_section_2_1">
+                    <p class="footer_last_section_2_1_1">ZOMAVERSE</p>
+                    <p class="footer_last_section_2_1_2">Zomato</p>
+                    <p class="footer_last_section_2_1_2">Blinkit</p>
+                    <p class="footer_last_section_2_1_2">Feeding India</p>
+                    <p class="footer_last_section_2_1_2">Hyper Pure</p>
+                    <p class="footer_last_section_2_1_2">Zomaland</p>
+                </div>
+                <div class="footer_last_section_2_1">
+                    <p class="footer_last_section_2_1_1">FOR RESTAURANTS</p>
+                    <p class="footer_last_section_2_1_2">Partner With Us</p>
+                    <p class="footer_last_section_2_1_2" id="app_for_you">Apps For You</p>
+                    <p class="footer_last_section_2_1_1">FOR ENTERPRISES</p>
+                    <p class="footer_last_section_2_1_2">Zomato For Enterprises</p>
+                </div>
+                <div class="footer_last_section_2_1">
+                    <p class="footer_last_section_2_1_1">LEARN MORE</p>
+                    <p class="footer_last_section_2_1_2">Privacy</p>
+                    <p class="footer_last_section_2_1_2">Security</p>
+                    <p class="footer_last_section_2_1_2">Terms</p>
+                    <p class="footer_last_section_2_1_2">Site Map</p>
+                </div>
+                <div class="footer_last_section_2_1">
+                    <p class="footer_last_section_2_1_1">SOCIAL LINKS</p>
+                    <div class="footer_social_media_section">
+                        <div class="social_media_logo" id="linkedin"></div>
+                        <div class="social_media_logo" id="instagram"></div>
+                        <div class="social_media_logo" id="x"></div>
+                        <div class="social_media_logo" id="youtube"></div>
+                        <div class="social_media_logo" id="facebook"></div>
+                    </div>
+                    <div class="download_section_option">
+                        <div class="download" id="app_store"></div>
+                        <div class="download" id="play_store"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_last_line">
+                <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                    Content Policies. All trademarks are properties of their respective owners. 2008-</p>
+                <p>2024 © Zomato™ Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
